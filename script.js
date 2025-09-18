@@ -42,14 +42,14 @@
         `;
         document.head.appendChild(style);
 
-        // Accessibility: Prefers reduced motion
+        // Accessibility
         if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
             document.querySelectorAll('.bg-element').forEach(el => {
                 el.style.animation = 'none';
             });
         }
 
-        // Simple page load optimization
+        // Page load optimization
         window.addEventListener('load', () => {
             document.body.style.opacity = '1';
             document.body.style.transition = 'opacity 0.3s ease-in-out';
