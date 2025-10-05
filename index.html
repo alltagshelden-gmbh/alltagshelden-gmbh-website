@@ -38,6 +38,7 @@
 
             <p class="subtitle">
                 Wir sind gerade dabei, unsere Seite aufzubauen.
+
             </p>
 
             <!-- Progress Indicator -->
@@ -47,6 +48,7 @@
                     <div class="progress-fill"></div>
                 </div>
             </div>
+
 
             <!-- Links Section -->
             <div class="links-section">
@@ -68,6 +70,57 @@
                         </svg>
                         Erste Hilfe – leicht gemacht!
                     </a>
+
+                    <!-- Pflegegrad Info Button -->
+                    <button class="cta-button" onclick="openModal()">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z" />
+                            <polyline points="13 2 13 9 20 9" />
+                        </svg>
+                        Sie haben einen Pflegegrad?
+                    </button>
+
+                    <!-- Modal Overlay -->
+                    <div id="imageModal" class="modal" onclick="closeModal()">
+                        <span class="modal-close" onclick="event.stopPropagation(); closeModal();">&times;</span>
+
+                        <!-- Download button (stops propagation so modal doesn't close) -->
+                        <button id="modalDownload" class="modal-download"
+                            onclick="event.stopPropagation(); downloadModalImage();" aria-label="Bild herunterladen">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                aria-hidden="true" focusable="false">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                                <polyline points="7 10 12 15 17 10" />
+                                <line x1="12" y1="15" x2="12" y2="3" />
+                            </svg>
+                            <span class="sr-only">Bild herunterladen</span>
+                        </button>
+
+                        <img src="img/pflegegrad.jpg" alt="Pflegegrad Informationen" class="modal-content"
+                            onclick="event.stopPropagation()">
+                    </div>
+
+                </div>
+            </div>
+
+
+
+            <!-- Contact Section -->
+            <div class="contact-section">
+                <p class="contact-intro">
+                    Sie erreichen uns telefonisch unter:
+                </p>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <a href="tel:+4933094702494" class="contact-link">033094 / 70 24 94</a>
+                        <span class="phone-separator">oder</span>
+                        <a href="tel:+491556049891" class="contact-link">0155 / 60 49 89 10</a>
+                    </div>
+                    <div class="contact-item">
+                        oder per Mail unter
+                        <a href="mailto:kontakt@alltagshelden-gmbh.de"
+                            class="contact-link">kontakt@alltagshelden-gmbh.de</a>
+                    </div>
                 </div>
             </div>
         </div>
