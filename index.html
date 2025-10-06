@@ -80,25 +80,7 @@
                         Sie haben einen Pflegegrad?
                     </button>
 
-                    <!-- Modal Overlay -->
-                    <div id="imageModal" class="modal" onclick="closeModal()">
-                        <span class="modal-close" onclick="event.stopPropagation(); closeModal();">&times;</span>
 
-                        <!-- Download button (stops propagation so modal doesn't close) -->
-                        <button id="modalDownload" class="modal-download"
-                            onclick="event.stopPropagation(); downloadModalImage();" aria-label="Bild herunterladen">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                aria-hidden="true" focusable="false">
-                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
-                                <polyline points="7 10 12 15 17 10" />
-                                <line x1="12" y1="15" x2="12" y2="3" />
-                            </svg>
-                            <span class="sr-only">Bild herunterladen</span>
-                        </button>
-
-                        <img src="img/pflegegrad.jpg" alt="Pflegegrad Informationen" class="modal-content"
-                            onclick="event.stopPropagation()">
-                    </div>
 
                 </div>
             </div>
@@ -123,6 +105,26 @@
                     </div>
                 </div>
             </div>
+        </div>
+
+        <!-- Modal Overlay -->
+        <div id="imageModal" class="modal" onclick="closeModal()">
+            <span class="modal-close" onclick="event.stopPropagation(); closeModal();">&times;</span>
+
+            <!-- Download button (stops propagation so modal doesn't close) -->
+            <button id="modalDownload" class="modal-download" onclick="event.stopPropagation(); downloadModalImage();"
+                aria-label="Bild herunterladen">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"
+                    focusable="false">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                    <polyline points="7 10 12 15 17 10" />
+                    <line x1="12" y1="15" x2="12" y2="3" />
+                </svg>
+                <span class="sr-only">Bild herunterladen</span>
+            </button>
+
+            <img src="img/pflegegrad.jpg" alt="Pflegegrad Informationen" class="modal-content"
+                onclick="event.stopPropagation()">
         </div>
     </div>
 

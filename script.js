@@ -55,15 +55,15 @@ window.addEventListener('load', () => {
 function openModal() {
     const modal = document.getElementById('imageModal');
     modal.style.display = 'block';
-    // Trigger reflow
     modal.offsetHeight;
     modal.classList.add('show');
-    document.body.style.overflow = 'hidden';
+    document.body.classList.add('modal-open');
 }
 
 function closeModal() {
     const modal = document.getElementById('imageModal');
     modal.classList.remove('show');
+    document.body.classList.remove('modal-open');
     setTimeout(() => {
         modal.style.display = 'none';
         document.body.style.overflow = '';
