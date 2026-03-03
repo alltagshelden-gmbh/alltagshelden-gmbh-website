@@ -209,13 +209,6 @@ body.modal-open {
     padding: 1rem 0;
 }
 
-.progress-text {
-    font-size: 0.9rem;
-    color: #8bccce;
-    margin-bottom: 0.5rem;
-    font-weight: 500;
-}
-
 .progress-bar {
     width: 100%;
     height: 6px;
@@ -330,6 +323,7 @@ button.cta-button {
     max-width: 420px;
 }
 
+
 .contact-intro {
     font-size: 1rem;
     color: #2c3e50;
@@ -350,6 +344,7 @@ button.cta-button {
     display: flex;
     align-items: center;
     gap: 0.5rem;
+    margin-bottom: 3px;
 }
 
 .contact-label {
@@ -417,31 +412,7 @@ button.cta-button {
 }
 
 /* === PFLEGEGRAD SECTION === */
-.pflegegrad-section {
-    margin: 1.5rem 0;
-}
-
-.info-button {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    padding: 0.8rem 1.5rem;
-    background: linear-gradient(135deg, #a8d5d7 0%, #8bccce 100%);
-    color: white;
-    border: none;
-    border-radius: 12px;
-    font-weight: 600;
-    font-size: 0.95rem;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    box-shadow: 0 4px 12px rgba(139, 204, 206, 0.3);
-}
-
-.info-button:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(139, 204, 206, 0.4);
-    background: linear-gradient(135deg, #8bccce 0%, #7ab8ba 100%);
-}
+/* Pflegegrad styles removed (not used) */
 
 /* === MODAL === */
 .modal {
@@ -779,42 +750,37 @@ button.cta-button {
 }
 
 /* === EINGLIEDERUNGSHILFE PAGE === */
-.eingliederung-body {
+/* Specific eingliederung styles removed (not used) */
+
+.address-section {
+    margin-top: 0.5rem;
+    padding-top: 0.5rem;
+    border-top: 1px solid rgba(139, 204, 206, 0.3);
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    height: 100vh;
-    background-color: #f9f9f9;
-    color: #333;
+}
+
+.address-card {
+    /* background: rgba(255, 255, 255, 0.5); */
+    padding: 1.25rem;
+    border-radius: 12px;
     text-align: center;
+    width: 100%;
+    max-width: 420px;
+    /* box-shadow: 0 4px 15px rgba(31, 38, 135, 0.05); */
 }
 
-.eingliederung-body h1 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-}
-
-.eingliederung-body p {
-    font-size: 1rem;
-    margin-bottom: 2rem;
-}
-
-.eingliederung-body .contact {
+.address-label {
+    display: block;
+    color: #6c757d;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
     font-size: 1rem;
 }
 
-.eingliederung-body .contact div {
-    margin: 0.5rem 0;
-}
-
-@media (max-width: 600px) {
-    .eingliederung-body h1 {
-        font-size: 1.5rem;
-    }
-
-    .eingliederung-body p,
-    .eingliederung-body .contact {
-        font-size: 0.9rem;
-    }
+.address-value {
+    color: #6c757d;
+    font-size: 0.95rem;
+    line-height: 1.5;
 }
