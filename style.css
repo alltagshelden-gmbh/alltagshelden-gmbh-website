@@ -380,7 +380,7 @@ button.cta-button {
 }
 
 @media (max-width: 480px) {
-    .contact-item {
+    /* .contact-item {
         font-size: 0.9rem;
         display: grid;
         grid-template-columns: max-content 1fr;
@@ -388,16 +388,16 @@ button.cta-button {
         align-items: center;
         text-align: left;
         width: 100%;
-    }
+    } */
 
-    .contact-label {
+    /* .contact-label {
         min-width: 0;
         display: inline-block;
         width: auto;
         text-align: left;
         font-size: 0.95rem;
         color: #2c3e50;
-    }
+    } */
 
     .contact-link {
         text-align: left;
