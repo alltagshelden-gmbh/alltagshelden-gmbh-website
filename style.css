@@ -317,6 +317,19 @@ button.cta-button {
     border-top: 1px solid rgba(139, 204, 206, 0.3);
 }
 
+.contact-card {
+    /* background: linear-gradient(180deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.55));
+    border: 1px solid rgba(139, 204, 206, 0.18);
+    box-shadow: 0 6px 20px rgba(31, 38, 135, 0.1); */
+    border: none;
+    padding: 1rem 1.25rem;
+    border-radius: 12px;
+    display: inline-block;
+    text-align: left;
+    margin: 0 auto;
+    max-width: 420px;
+}
+
 .contact-intro {
     font-size: 1rem;
     color: #2c3e50;
@@ -337,6 +350,13 @@ button.cta-button {
     display: flex;
     align-items: center;
     gap: 0.5rem;
+}
+
+.contact-label {
+    color: #2c3e50;
+    /* font-weight: 600; */
+    min-width: 72px;
+    display: inline-block;
 }
 
 .contact-link {
