@@ -157,6 +157,8 @@ body.modal-open {
     max-width: 100%;
     filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.2));
     transition: transform 0.3s ease;
+    -webkit-user-select: none;
+    user-select: none;
 }
 
 .logo:hover {
@@ -294,6 +296,11 @@ body.modal-open {
 .cta-button.secondary:hover {
     background: linear-gradient(135deg, #d4a853 0%, #bc9043 100%);
     box-shadow: 0 6px 20px rgba(236, 195, 115, 0.4);
+}
+
+button.cta-button {
+    -webkit-user-select: all;
+    user-select: all;
 }
 
 /* === DECORATIVE ICONS === */
@@ -673,7 +680,7 @@ body.modal-open {
 
     .cta-button {
         width: 100%;
-        max-width: 280px;
+        max-width: 320px;
         justify-content: center;
     }
 
@@ -723,5 +730,46 @@ body.modal-open {
         animation-duration: 0.01ms !important;
         animation-iteration-count: 1 !important;
         transition-duration: 0.01ms !important;
+    }
+}
+
+/* === EINGLIEDERUNGSHILFE PAGE === */
+.eingliederung-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: center;
+}
+
+.eingliederung-body h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.eingliederung-body p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.eingliederung-body .contact {
+    font-size: 1rem;
+}
+
+.eingliederung-body .contact div {
+    margin: 0.5rem 0;
+}
+
+@media (max-width: 600px) {
+    .eingliederung-body h1 {
+        font-size: 1.5rem;
+    }
+
+    .eingliederung-body p,
+    .eingliederung-body .contact {
+        font-size: 0.9rem;
     }
 }

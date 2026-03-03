@@ -5,6 +5,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- SEO Meta Data -->
+    <meta name="description"
+        content="ALLTAGSHELDEN soziale Dienste GmbH — Unternehmens-Website im Aufbau. Hier finden Sie bald Informationen zu unseren Dienstleistungen und Angeboten. Kontakt: kontakt@alltagshelden-gmbh.de">
+    <meta name="keywords" content="Alltagshelden, soziale Dienste, Sanitätshaus, Erste Hilfe, Pflegegrad">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="ALLTAGSHELDEN soziale Dienste GmbH">
+    <link rel="canonical" href="https://alltagsheldengmbh.de/">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="ALLTAGSHELDEN soziale Dienste GmbH – Hier entsteht etwas Neues">
+    <meta property="og:description"
+        content="ALLTAGSHELDEN soziale Dienste GmbH — Unternehmens-Website im Aufbau. Bald finden Sie hier Informationen zu unseren Leistungen.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://alltagsheldengmbh.de/">
+    <meta property="og:image" content="https://alltagsheldengmbh.de/img/logo.avif">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="ALLTAGSHELDEN soziale Dienste GmbH – Hier entsteht etwas Neues">
+    <meta name="twitter:description"
+        content="ALLTAGSHELDEN soziale Dienste GmbH — Unternehmens-Website im Aufbau. Bald finden Sie hier Informationen zu unseren Leistungen.">
+    <meta name="twitter:image" content="https://alltagsheldengmbh.de/img/logo.avif">
+
     <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
@@ -13,6 +37,23 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js" async></script>
     <title>Alltagshelden GmbH – Hier entsteht etwas Neues</title>
+    <!-- Structured data (JSON-LD) for Organization -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "ALLTAGSHELDEN soziale Dienste GmbH",
+            "url": "https://alltagsheldengmbh.de/",
+            "logo": "https://alltagsheldengmbh.de/img/logo.avif",
+            "contactPoint": [{
+                "@type": "ContactPoint",
+                "telephone": "+49 155 60498910",
+                "contactType": "Customer Service",
+                "email": "kontakt@alltagshelden-gmbh.de",
+                "availableLanguage": "de"
+            }]
+        }
+        </script>
 </head>
 
 <body>
@@ -61,7 +102,7 @@
                         <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <path d="m9 18 6-6-6-6" />
                         </svg>
-                        ALLTAGSHELDEN Sanitätshaus
+                        Alltagshelden Sanitätshaus
                     </a>
 
                     <a href="https://www.erstehilfe-leichtgemacht.de/" class="cta-button secondary">
@@ -71,8 +112,15 @@
                         Erste Hilfe leicht gemacht!
                     </a>
 
+                    <a href="eingliederung.html" class="cta-button">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="m9 18 6-6-6-6" />
+                        </svg>
+                        Eingliederungshilfe
+                    </a>
+
                     <!-- Pflegegrad Info Button -->
-                    <button class="cta-button" onclick="openModal()">
+                    <button class="cta-button secondary" onclick="openModal()">
                         <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <path d="m9 18 6-6-6-6" />
                         </svg>

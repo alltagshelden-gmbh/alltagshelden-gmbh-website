@@ -1,0 +1,8 @@
+# robots.txt for ALLTAGSHELDEN soziale Dienste GmbH
+# Allow all crawlers by default and point to sitemap
+
+User-agent: *
+Disallow: /impressum.html
+
+# Link to sitemap (absolute URL)
+Sitemap: https://alltagsheldengmbh.de/sitemap.xml
