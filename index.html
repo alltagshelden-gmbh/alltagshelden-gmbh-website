@@ -4,186 +4,402 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- SEO Meta Data -->
+    <title>Alltagshilfe &amp; Entlastungsleistungen im Löwenberger Land | ALLTAGSHELDEN</title>
     <meta name="description"
-        content="ALLTAGSHELDEN soziale Dienste GmbH — Unternehmens-Website im Aufbau. Hier finden Sie bald Informationen zu unseren Dienstleistungen und Angeboten. Kontakt: kontakt@alltagshelden-gmbh.de">
-    <meta name="keywords" content="Alltagshelden, soziale Dienste, Sanitätshaus, Erste Hilfe, Pflegegrad">
-    <meta name="robots" content="index, follow">
-    <meta name="author" content="ALLTAGSHELDEN soziale Dienste GmbH">
+        content="ALLTAGSHELDEN soziale Dienste GmbH aus Teschendorf (Löwenberger Land): Haushaltshilfe, Betreuung, Begleit- und Transportservice für Menschen mit Pflegegrad – Abrechnung über alle Pflegekassen. Außerdem: Qualifizierungskurs nach § 45a SGB XI.">
+    <meta name="robots" content="index, follow, max-image-preview:large">
     <link rel="canonical" href="https://alltagsheldengmbh.de/">
-    <meta name="theme-color" content="#ffffff">
+    <meta name="theme-color" content="#f7fbfa">
 
-    <!-- Open Graph / Facebook -->
-    <meta property="og:title" content="ALLTAGSHELDEN soziale Dienste GmbH – Hier entsteht etwas Neues">
-    <meta property="og:description"
-        content="ALLTAGSHELDEN soziale Dienste GmbH — Unternehmens-Website im Aufbau. Bald finden Sie hier Informationen zu unseren Leistungen.">
+    <!-- Open Graph / Social -->
     <meta property="og:type" content="website">
+    <meta property="og:locale" content="de_DE">
+    <meta property="og:site_name" content="ALLTAGSHELDEN soziale Dienste GmbH">
+    <meta property="og:title" content="ALLTAGSHELDEN – Alltagshilfe &amp; Entlastungsleistungen im Löwenberger Land">
+    <meta property="og:description"
+        content="Haushaltshilfe, Betreuung, Begleit- und Transportservice für Menschen mit Pflegegrad – Abrechnung über alle Pflegekassen.">
     <meta property="og:url" content="https://alltagsheldengmbh.de/">
-    <meta property="og:image" content="https://alltagsheldengmbh.de/img/logo.avif">
-
-    <!-- Twitter Card -->
+    <meta property="og:image" content="https://alltagsheldengmbh.de/img/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="ALLTAGSHELDEN soziale Dienste GmbH – Hier entsteht etwas Neues">
-    <meta name="twitter:description"
-        content="ALLTAGSHELDEN soziale Dienste GmbH — Unternehmens-Website im Aufbau. Bald finden Sie hier Informationen zu unseren Leistungen.">
-    <meta name="twitter:image" content="https://alltagsheldengmbh.de/img/logo.avif">
 
-    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" href="favicon.ico" sizes="any">
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
     <link rel="manifest" href="site.webmanifest">
+    <link rel="preload" as="image" href="img/logo.avif" type="image/avif">
 
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" async></script>
-    <title>Alltagshelden GmbH – Hier entsteht etwas Neues</title>
-    <!-- Structured data (JSON-LD) for Organization -->
+    <script>document.documentElement.classList.add('js');</script>
+    <script src="script.js" defer></script>
+
     <script type="application/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            "name": "ALLTAGSHELDEN soziale Dienste GmbH",
-            "url": "https://alltagsheldengmbh.de/",
-            "logo": "https://alltagsheldengmbh.de/img/logo.avif",
-            "contactPoint": [{
-                "@type": "ContactPoint",
-                "telephone": "+49 155 60498910",
-                "contactType": "Customer Service",
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "LocalBusiness",
+                "@id": "https://alltagsheldengmbh.de/#organisation",
+                "name": "ALLTAGSHELDEN soziale Dienste GmbH",
+                "alternateName": "Alltagshelden",
+                "description": "Entlastungsleistungen nach § 45b SGB XI für Menschen mit Pflegegrad: Haushaltsunterstützung, Betreuung, Gartenpflege, Begleitservice und Transportservice. Außerdem Eingliederungshilfe und Qualifizierungskurse nach § 45a SGB XI.",
+                "url": "https://alltagsheldengmbh.de/",
+                "logo": "https://alltagsheldengmbh.de/img/android-chrome-512x512.png",
+                "image": "https://alltagsheldengmbh.de/img/og-image.png",
+                "telephone": "+49 33094 702494",
                 "email": "kontakt@alltagshelden-gmbh.de",
-                "availableLanguage": "de"
-            }]
-        }
-        </script>
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "Hauptstraße 79",
+                    "postalCode": "16775",
+                    "addressLocality": "Löwenberger Land OT Teschendorf",
+                    "addressRegion": "Brandenburg",
+                    "addressCountry": "DE"
+                },
+                "areaServed": "Löwenberger Land und Umgebung",
+                "contactPoint": [
+                    {
+                        "@type": "ContactPoint",
+                        "telephone": "+49 33094 702494",
+                        "contactType": "customer service",
+                        "email": "kontakt@alltagshelden-gmbh.de",
+                        "availableLanguage": "de"
+                    }
+                ],
+                "makesOffer": [
+                    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Haushaltsunterstützung" } },
+                    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Betreuung" } },
+                    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Gartenpflege" } },
+                    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Begleitservice" } },
+                    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Transportservice" } },
+                    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Eingliederungshilfe" } }
+                ]
+            },
+            {
+                "@type": "WebSite",
+                "@id": "https://alltagsheldengmbh.de/#website",
+                "url": "https://alltagsheldengmbh.de/",
+                "name": "ALLTAGSHELDEN soziale Dienste GmbH",
+                "inLanguage": "de-DE",
+                "publisher": { "@id": "https://alltagsheldengmbh.de/#organisation" }
+            }
+        ]
+    }
+    </script>
 </head>
 
 <body>
+    <a class="skip-link" href="#inhalt">Zum Inhalt springen</a>
 
-    <div class="background-blob blob1"></div>
-    <div class="background-blob blob2"></div>
-    <div class="background-blob blob3"></div>
-    <div class="background-blob blob4"></div>
-    <div class="background-blob blob5"></div>
-
-
-    <div class="container">
-        <div class="content-card">
-            <!-- Logo Section -->
-            <div class="logo-container">
-
-                <img src="img/logo.avif" alt="Logo - Zwei Figuren halten sich im Arm" class="logo">
-
-            </div>
-
-            <!-- Main Content -->
-            <h1 class="main-heading">Hier entsteht etwas Neues</h1>
-
-            <p class="subtitle">
-                Wir sind gerade dabei, unsere Seite aufzubauen.
-
-            </p>
-
-            <!-- Progress Indicator -->
-            <div class="progress-container">
-                <!-- <div class="progress-text">In arbeit...</div> -->
-                <div class="progress-bar">
-                    <div class="progress-fill"></div>
-                </div>
-            </div>
-
-
-            <!-- Links Section -->
-            <div class="links-section">
-                <p class="links-intro">
-                    Bis dahin schauen Sie doch schon mal hier vorbei:
-                </p>
-
-                <div class="link-buttons">
-                    <a href="https://alltagshelden-sanitaetshaus.de/" class="cta-button">
-                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="m9 18 6-6-6-6" />
-                        </svg>
-                        Alltagshelden Sanitätshaus
-                    </a>
-
-                    <a href="https://www.erstehilfe-leichtgemacht.de/" class="cta-button secondary">
-                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="m9 18 6-6-6-6" />
-                        </svg>
-                        Erste Hilfe leicht gemacht!
-                    </a>
-
-                    <a href="eingliederungshilfe.html" class="cta-button">
-                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="m9 18 6-6-6-6" />
-                        </svg>
-                        Eingliederungshilfe
-                    </a>
-
-                    <!-- Pflegegrad Info Button -->
-                    <button class="cta-button secondary" onclick="openModal()">
-                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="m9 18 6-6-6-6" />
-                        </svg>
-                        Sie haben einen Pflegegrad?
-                    </button>
-
-
-
-                </div>
-            </div>
-
-
-
-            <!-- Contact Section -->
-            <div class="contact-section">
-                <p class="contact-intro">
-                    Sie erreichen uns telefonisch unter:
-                </p>
-                <div class="contact-details">
-                    <div class="contact-item">
-                        <a href="tel:+4933094702494" class="contact-link">033094 / 70 24 94</a>
-                        <span class="phone-separator">oder</span>
-                        <a href="tel:+491556049891" class="contact-link">0155 / 60 49 89 10</a>
-                    </div>
-                    <div class="contact-item">
-                        oder per Mail unter
-                        <a href="mailto:kontakt@alltagshelden-gmbh.de"
-                            class="contact-link">kontakt@alltagshelden-gmbh.de</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Modal Overlay -->
-        <div id="imageModal" class="modal" onclick="closeModal()">
-            <span class="modal-close" onclick="event.stopPropagation(); closeModal();">&times;</span>
-
-            <!-- Download button (stops propagation so modal doesn't close) -->
-            <button id="modalDownload" class="modal-download" onclick="event.stopPropagation(); downloadModalImage();"
-                aria-label="Bild herunterladen">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"
-                    focusable="false">
-                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
-                    <polyline points="7 10 12 15 17 10" />
-                    <line x1="12" y1="15" x2="12" y2="3" />
-                </svg>
-                <span class="sr-only">Bild herunterladen</span>
+    <header class="site-header">
+        <div class="wrap header-inner">
+            <a href="index.html" class="brand" aria-label="ALLTAGSHELDEN – zur Startseite">
+                <img src="img/logo.avif" alt="" width="272" height="238">
+                <span class="brand-text">
+                    <span class="brand-name">ALLTAGSHELDEN</span>
+                    <span class="brand-sub">soziale Dienste GmbH</span>
+                </span>
+            </a>
+            <button class="nav-toggle" aria-expanded="false" aria-controls="hauptmenue" aria-label="Menü öffnen">
+                <span></span>
             </button>
-
-            <img src="img/pflegegrad.jpg" alt="Pflegegrad Informationen" class="modal-content"
-                onclick="event.stopPropagation()">
+            <nav class="main-nav" id="hauptmenue" aria-label="Hauptnavigation">
+                <ul>
+                    <li><a href="#leistungen">Leistungen</a></li>
+                    <li><a href="#angebote">Angebote</a></li>
+                    <li><a href="qualifizierungskurs.html">Qualifizierungskurs</a></li>
+                    <li><a href="#kontakt">Kontakt</a></li>
+                    <li class="nav-call"><a href="tel:+4933094702494">Anrufen: 033094 / 70 24 94</a></li>
+                </ul>
+            </nav>
+            <a href="tel:+4933094702494" class="btn btn-primary header-cta">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                033094 / 70 24 94
+            </a>
         </div>
-    </div>
+    </header>
 
-    <footer class="site-footer" aria-label="Seitenfuß">
-        <div class="footer-container">
-            <p class="footer-text">© ALLTAGSHELDEN soziale Dienste GmbH</p>
-            <p class="footer-links">
-                <a href="impressum.html" class="footer-link">Impressum</a>
-            </p>
+    <main id="inhalt">
+
+        <!-- HERO -->
+        <section class="hero">
+            <div class="wrap hero-grid">
+                <div>
+                    <span class="eyebrow"><span class="dot"></span>Teschendorf · Löwenberger Land</span>
+                    <h1>Ihre <span class="accent">Alltagshelden</span> für mehr Leichtigkeit im Alltag</h1>
+                    <p class="hero-lead">Haushaltshilfe, Betreuung, Begleit- und Transportservice für Menschen mit
+                        Pflegegrad – persönlich, zuverlässig und aus der Region.</p>
+                    <div class="hero-actions">
+                        <a href="tel:+4933094702494" class="btn btn-primary">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                            Jetzt beraten lassen
+                        </a>
+                        <a href="#leistungen" class="btn btn-ghost">Unsere Leistungen</a>
+                    </div>
+                    <ul class="hero-trust">
+                        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Abrechnung über alle Pflegekassen</li>
+                        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Ab Pflegegrad 1</li>
+                        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Persönliche Ansprechpartner</li>
+                    </ul>
+                </div>
+                <div class="hero-visual" aria-hidden="true">
+                    <div class="hero-disc">
+                        <img src="img/logo.avif" alt="" width="272" height="238">
+                    </div>
+                    <div class="float-chip chip-a">
+                        <span class="chip-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg></span>
+                        <span>Alle Pflegekassen<small>Entlastungsbetrag § 45b</small></span>
+                    </div>
+                    <div class="float-chip chip-b">
+                        <span class="chip-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg></span>
+                        <span>Mit Herz dabei<small>aus der Region</small></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- LEISTUNGEN -->
+        <section class="section section-alt" id="leistungen" aria-labelledby="leistungen-titel">
+            <div class="wrap">
+                <div class="section-head reveal">
+                    <span class="kicker">Entlastungsleistungen</span>
+                    <h2 id="leistungen-titel">Wir kümmern uns – damit Sie entlastet sind</h2>
+                    <p>Als ALLTAGSHELDEN stehen wir an Ihrer Seite – von der Beratung bis zur Unterstützung vor Ort.</p>
+                </div>
+
+                <div class="services-layout">
+                    <ul class="service-grid">
+                        <li class="service reveal">
+                            <div class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 10 9-7 9 7v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M9 22V12h6v10"/></svg></div>
+                            <h3>Haushaltsunterstützung</h3>
+                            <p>Hilfe bei Einkauf, Wäsche, Reinigung und allem, was im Haushalt anfällt.</p>
+                        </li>
+                        <li class="service reveal">
+                            <div class="icon-badge gold"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg></div>
+                            <h3>Betreuung</h3>
+                            <p>Gesellschaft, Gespräche und gemeinsame Aktivitäten für mehr Lebensfreude.</p>
+                        </li>
+                        <li class="service reveal">
+                            <div class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></svg></div>
+                            <h3>Gartenpflege</h3>
+                            <p>Rasen, Hecke und Beete – wir halten Ihren Garten in Schuss.</p>
+                        </li>
+                        <li class="service reveal">
+                            <div class="icon-badge gold"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+                            <h3>Begleitservice</h3>
+                            <p>Wir begleiten Sie zu Arztterminen, Behörden oder beim Spaziergang.</p>
+                        </li>
+                        <li class="service reveal">
+                            <div class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2"/><circle cx="7" cy="17" r="2"/><path d="M9 17h6"/><circle cx="17" cy="17" r="2"/></svg></div>
+                            <h3>Transportservice</h3>
+                            <p>Sicher und bequem ans Ziel – wir bringen Sie hin.</p>
+                        </li>
+                        <li class="service service-more reveal">
+                            <h3>Etwas anderes?</h3>
+                            <p>Sprechen Sie uns an – gemeinsam finden wir die passende Unterstützung.</p>
+                            <p style="margin-top:0.75rem"><a href="#kontakt">Kontakt aufnehmen →</a></p>
+                        </li>
+                    </ul>
+
+                    <aside class="info-panel reveal" aria-labelledby="pflegegrad-titel">
+                        <span class="badge-stamp">Abrechnung über alle Pflegekassen</span>
+                        <h3 id="pflegegrad-titel">Sie haben einen Pflegegrad?</h3>
+                        <p>Pflegebedürftige mit Pflegegrad 1 bis 5, die zu Hause leben, haben Anspruch auf den
+                            Entlastungsbetrag nach § 45b SGB XI. Wir beraten Sie gern, welche Unterstützung für Sie
+                            infrage kommt.</p>
+                        <div class="panel-actions">
+                            <a href="tel:+4933094702494" class="btn btn-gold">Jetzt beraten lassen</a>
+                            <a href="img/pflegegrad.jpg" class="btn btn-outline-light" data-open-flyer>
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg>
+                                Flyer ansehen
+                            </a>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </section>
+
+        <!-- ANGEBOTE -->
+        <section class="section" id="angebote" aria-labelledby="angebote-titel">
+            <div class="wrap">
+                <div class="section-head reveal">
+                    <span class="kicker">Mehr von uns</span>
+                    <h2 id="angebote-titel">Unsere weiteren Angebote</h2>
+                </div>
+
+                <div class="offer-grid">
+                    <a href="qualifizierungskurs.html" class="offer-card reveal">
+                        <div class="card-top">
+                            <div class="icon-badge gold"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"/><path d="M22 10v6"/><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/></svg></div>
+                            <span class="tag highlight">Start: 07.12.2026</span>
+                        </div>
+                        <h3>Qualifizierungskurs Alltagsbegleitung</h3>
+                        <p>Qualifizierung für alltagsunterstützende Angebote nach § 45a SGB XI – 30 Unterrichtseinheiten
+                            als Live-Online-Seminar.</p>
+                        <span class="card-link">Zum Kurs<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+                    </a>
+
+                    <a href="eingliederungshilfe.html" class="offer-card reveal">
+                        <div class="card-top">
+                            <div class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m11 17 2 2a1 1 0 1 0 3-3"/><path d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4"/><path d="m21 3 1 11h-2"/><path d="M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3"/><path d="M3 4h8"/></svg></div>
+                        </div>
+                        <h3>Eingliederungshilfe</h3>
+                        <p>Unterstützung für Menschen mit Behinderung – für mehr Teilhabe und Selbstbestimmung im
+                            Alltag.</p>
+                        <span class="card-link">Mehr erfahren<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+                    </a>
+
+                    <a href="https://alltagshelden-sanitaetshaus.de/" class="offer-card reveal" target="_blank" rel="noopener">
+                        <div class="card-top">
+                            <div class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><path d="M12 8v8M8 12h8"/></svg></div>
+                            <span class="tag">eigene Website</span>
+                        </div>
+                        <h3>Alltagshelden Sanitätshaus</h3>
+                        <p>Hilfsmittel und Produkte rund um Gesundheit, Pflege und Alltag.</p>
+                        <span class="card-link">Zum Sanitätshaus<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"/><path d="M7 7h10v10"/></svg></span>
+                    </a>
+
+                    <a href="https://www.erstehilfe-leichtgemacht.de/" class="offer-card reveal" target="_blank" rel="noopener">
+                        <div class="card-top">
+                            <div class="icon-badge gold"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 11v4"/><path d="M14 13h-4"/><path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/><path d="M18 6v14"/><path d="M6 6v14"/><rect width="20" height="14" x="2" y="6" rx="2"/></svg></div>
+                            <span class="tag">eigene Website</span>
+                        </div>
+                        <h3>Erste Hilfe leicht gemacht!</h3>
+                        <p>Erste-Hilfe-Kurse – praxisnah und verständlich erklärt.</p>
+                        <span class="card-link">Zu den Kursen<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"/><path d="M7 7h10v10"/></svg></span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- KURS -->
+        <section class="section" style="padding-top:0" aria-labelledby="kurs-titel">
+            <div class="wrap">
+                <div class="course-band reveal">
+                    <div>
+                        <span class="kicker">Qualifizierungskurs nach § 45a SGB XI</span>
+                        <h2 id="kurs-titel">Werden Sie ein Alltagsheld!</h2>
+                        <p class="lead">Unser Kurs bereitet Sie optimal auf die Arbeit in alltagsunterstützenden
+                            Angeboten vor – entwickelt in Zusammenarbeit mit dem Landesamt für Soziales und Versorgung.</p>
+                        <div class="hero-actions">
+                            <a href="qualifizierungskurs.html" class="btn btn-primary">Alle Infos zum Kurs</a>
+                            <a href="docs/Anmeldung_Qualifizierungskurs.pdf" class="btn btn-light" target="_blank" rel="noopener">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/></svg>
+                                Anmeldeformular
+                            </a>
+                        </div>
+                    </div>
+                    <ul class="course-facts">
+                        <li>
+                            <span class="fact-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg></span>
+                            <span><strong>Nächster Termin</strong>07., 08. &amp; 18.12.2026</span>
+                        </li>
+                        <li>
+                            <span class="fact-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="14" x="2" y="3" rx="2"/><path d="M8 21h8M12 17v4"/></svg></span>
+                            <span><strong>30 UE in 4 Modulen</strong>Live-Online-Seminar, 8:30 – 16:00 Uhr</span>
+                        </li>
+                        <li>
+                            <span class="fact-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg></span>
+                            <span><strong>Ab 225 €</strong>oder 60 € je Einzelmodul</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- KONTAKT -->
+        <section class="section section-alt" id="kontakt" aria-labelledby="kontakt-titel">
+            <div class="wrap">
+                <div class="section-head center reveal">
+                    <span class="kicker">Kontakt</span>
+                    <h2 id="kontakt-titel">Wir beraten Sie gern</h2>
+                    <p>Rufen Sie uns an oder schreiben Sie uns – wir melden uns schnellstmöglich bei Ihnen.</p>
+                </div>
+                <div class="contact-grid">
+                    <a href="tel:+4933094702494" class="contact-card reveal">
+                        <span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span>
+                        <span class="label">Telefon</span>
+                        <span class="value">033094 / 70 24 94</span>
+                    </a>
+                    <a href="tel:+4915560498910" class="contact-card reveal">
+                        <span class="icon-badge gold"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="14" height="20" x="5" y="2" rx="2"/><path d="M12 18h.01"/></svg></span>
+                        <span class="label">Mobil</span>
+                        <span class="value">0155 / 60 49 89 10</span>
+                    </a>
+                    <a href="mailto:kontakt@alltagshelden-gmbh.de" class="contact-card reveal">
+                        <span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg></span>
+                        <span class="label">E-Mail</span>
+                        <span class="value">kontakt@alltagshelden-gmbh.de</span>
+                    </a>
+                    <a href="https://www.google.com/maps/search/?api=1&amp;query=Hauptstra%C3%9Fe+79%2C+16775+L%C3%B6wenberger+Land" class="contact-card reveal" target="_blank" rel="noopener">
+                        <span class="icon-badge gold"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg></span>
+                        <span class="label">Adresse</span>
+                        <span class="value">Hauptstraße 79<br>16775 Löwenberger Land<br>OT Teschendorf</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="wrap">
+            <div class="footer-grid">
+                <div>
+                    <div class="footer-brand">
+                        <img src="img/logo.avif" alt="" width="272" height="238" loading="lazy">
+                        <div><strong>ALLTAGSHELDEN</strong><span>soziale Dienste GmbH</span></div>
+                    </div>
+                    <p>Entlastung und Unterstützung im Alltag – im Löwenberger Land und Umgebung.</p>
+                </div>
+                <div>
+                    <h2>Angebote</h2>
+                    <ul>
+                        <li><a href="index.html#leistungen">Entlastungsleistungen</a></li>
+                        <li><a href="qualifizierungskurs.html">Qualifizierungskurs</a></li>
+                        <li><a href="eingliederungshilfe.html">Eingliederungshilfe</a></li>
+                        <li><a href="https://alltagshelden-sanitaetshaus.de/" target="_blank" rel="noopener">Sanitätshaus</a></li>
+                        <li><a href="https://www.erstehilfe-leichtgemacht.de/" target="_blank" rel="noopener">Erste Hilfe</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>Kontakt</h2>
+                    <address>
+                        <ul>
+                            <li>Hauptstraße 79<br>16775 Löwenberger Land</li>
+                            <li><a href="tel:+4933094702494">033094 / 70 24 94</a></li>
+                            <li><a href="mailto:kontakt@alltagshelden-gmbh.de">kontakt@alltagshelden-gmbh.de</a></li>
+                        </ul>
+                    </address>
+                </div>
+                <div>
+                    <h2>Rechtliches</h2>
+                    <ul>
+                        <li><a href="impressum.html">Impressum</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>© <span data-year>2026</span> ALLTAGSHELDEN soziale Dienste GmbH</span>
+                <span>Hauptstraße 79 · 16775 Löwenberger Land OT Teschendorf</span>
+            </div>
         </div>
     </footer>
 
+    <!-- Pflegegrad-Flyer -->
+    <dialog id="flyerDialog" class="flyer-dialog" aria-label="Flyer: Sie haben einen Pflegegrad?">
+        <div class="dialog-body">
+            <div class="dialog-tools">
+                <a href="img/pflegegrad.jpg" download class="icon-btn" aria-label="Flyer herunterladen">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/></svg>
+                </a>
+                <button type="button" class="icon-btn" data-close aria-label="Schließen">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>
+                </button>
+            </div>
+            <img src="img/pflegegrad.jpg" alt="Flyer: Sie haben einen Pflegegrad? Wir kümmern uns! Entlastungsleistungen: Haushaltsunterstützung, Betreuung, Gartenpflege, Begleitservice, Transportservice. Abrechnung über alle Pflegekassen möglich." width="660" height="1600" loading="lazy">
+        </div>
+    </dialog>
 </body>
 
 </html>
